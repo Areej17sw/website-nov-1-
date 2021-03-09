@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    
+}
+.site-header
+{
+width: 100%;
+height: 100%;
+background-color: #89d4cf;
+background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+clip-path:polygon(0% 0%,100% 0% ,100% 70% ,0% 100%);
+}
+nav{
+   width: 100%;
+   height: 100px;
+   display: flex;
+   color: white;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+  
+
+}
+.logo h1{
+    margin: 20px;
+    line-height: 100px;
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: oblique;
+}
+.menu{
+width: 100%;
+height: 100px;
+}
+.menu ul{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       
+}
+.menu ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section{
+    display: flex;
+}
+.left-side{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.left-side img{
+    width: 600px;
+    height: 500px;
+}
+.right-side{
+color: white;
+width: 55%;
+height: 300px;
+text-align: center;
+margin-top: 100px;
+font-size: 20px;
+}
+.right-side h1{
+    margin-bottom: 20px;
+text-transform: uppercase;
+
+}
+.right-side p{
+    margin-bottom: 20px;
+
+}
+.right-side button{
+    padding: 15px 25px;
+    margin: 20px;
+    font-weight: bold;
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+color: white;
+border: 2px solid;
+border-radius: 4px;
+border: none;
+}
+.right-side button:hover{
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #6e45e1 0%,#89d4cf 74%);
+}
+.about-us{
+    width: 100%;
+    height: 100px;
+    display: flex; 
+    color: #1E1E83;
+    background-color: #eeeeee;
+}
+
+.header-about-us h1
+{
+  
+    margin: 20px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: oblique;
+}
+.about-div{
+    display: flex;
+}
+.about-us-text{
+    width: 45%;
+    height: auto;
+margin-top: 150px;
+text-align: center;
+justify-content: space-around;
+margin-left: 60px;
+margin-right: 40px;
+justify-content: center;
+font-size: large;
+font-weight: 600;
+}
+ .about-us-img{
+     margin-top: 40px;
+    width: 55%;
+    height: 300px;
+    margin-left: 100px;
+
+} 
+.about-us-img img{
+    width: 400px;
+    height: 400px;
+}
